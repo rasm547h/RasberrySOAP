@@ -14,8 +14,8 @@ namespace WCFServiceWebRole1
     // NOTE: In order to launch WCF Test Client for testing this service, please select Service1.svc or Service1.svc.cs at the Solution Explorer and start debugging.
     public class Service1 : IService1
     {
-        private const string SelectAllReading = "select * from Reading";
-        private const string SelectReadingByValue = "select * from Reading where reading_value <1000";
+        //private const string SelectAllReading = "select * from Reading";
+        //private const string SelectReadingByValue = "select * from Reading where reading_value <1000";
         private const string InsertIntoReading = "insert into Reading (reading_value) values (@Value)";
         
         public string InsertReadingService(int saveReading)
@@ -40,7 +40,7 @@ namespace WCFServiceWebRole1
             }
             return "Nothing much has been done around here!";
         }
-
+        /*
         public Reading GetReadingService(int newReading)
         {
             Reading reading = new Reading();
@@ -72,7 +72,7 @@ namespace WCFServiceWebRole1
                 }
             }
         }
-        /*
+        
         public IEnumerable<Reading> GetStudentsService()
         {
             List<Reading> students = new List<Reading>();

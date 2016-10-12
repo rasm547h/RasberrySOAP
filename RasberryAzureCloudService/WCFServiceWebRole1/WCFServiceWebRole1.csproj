@@ -135,7 +135,9 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>3604</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:3604/</IISUrl>
+          <IISUrl>http://localhost:7777</IISUrl>
+          <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
+          <IISAppRootUrl>http://localhost:7777</IISAppRootUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

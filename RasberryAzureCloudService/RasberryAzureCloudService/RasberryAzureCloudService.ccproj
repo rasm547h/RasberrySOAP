@@ -12,6 +12,7 @@
     <AssemblyName>RasberryAzureCloudService</AssemblyName>
     <StartDevelopmentStorage>True</StartDevelopmentStorage>
     <Name>RasberryAzureCloudService</Name>
+    <PackageEnableRemoteDebugger>False</PackageEnableRemoteDebugger>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -47,10 +48,14 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Profiles" />
     <Folder Include="WCFServiceWebRole1Content\" />
   </ItemGroup>
   <ItemGroup>
     <DiagnosticsConfiguration Include="WCFServiceWebRole1Content\diagnostics.wadcfgx" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishProfile Include="Profiles\RasberrySoapServiceProduction.azurePubxml" />
   </ItemGroup>
   <!-- Import the target files for this project template -->
   <PropertyGroup>

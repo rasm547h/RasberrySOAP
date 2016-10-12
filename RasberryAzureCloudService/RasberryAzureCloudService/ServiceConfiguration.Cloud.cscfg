@@ -3,7 +3,7 @@
   <Role name="WCFServiceWebRole1">
     <Instances count="1" />
     <ConfigurationSettings>
-      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=rasberrysoapservice;AccountKey=xasHf3D/Ut7NygshxK6yEquj/0uzcBWb8+QTx0ajDDk9GHX5nxf70wQqpHDRIymP8PK/Y1N/slIZbGOBZRa8cQ==" />
     </ConfigurationSettings>
   </Role>
 </ServiceConfiguration>
